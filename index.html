@@ -8,120 +8,91 @@
 <style>
 
 body{
-    font-family:Arial,sans-serif;
+    margin:0;
+    font-family:Arial, sans-serif;
     background:#F4F9FF;
     color:#333;
-    margin:40px;
 }
-
-.container{
-    max-width:900px;
-    margin:auto;
-    background:white;
-    padding:40px;
-    border-radius:20px;
-}
+/* Navigation */
 
 nav{
+    background:#1565C0;
+    padding:18px;
     text-align:center;
-    margin-bottom:35px;
 }
 
 nav a{
-    text-decoration:none;
-    background:#1678C9;
     color:white;
-    padding:12px 18px;
-    margin:5px;
-    border-radius:10px;
+    text-decoration:none;
+    margin:20px;
     font-weight:bold;
+    font-size:18px;
 }
 
 nav a:hover{
-    background:#0F5E9E;
+    color:#D6EBFF;
 }
 
-.logo{
-    display:block;
-    margin:auto;
-    width:140px;
-}
-
-h1{
-    text-align:center;
-    color:#1678C9;
-    font-size:42px;
-}
-
-h2{
-    color:#1678C9;
-}
+/* Hero */
 
 .hero{
+    background:#1565C0;
+    color:white;
     text-align:center;
+    padding:70px 20px;
+}
+
+.hero img{
+    width:140px;
+    margin-bottom:20px;
+}
+
+.hero h1{
+    font-size:55px;
+    margin-bottom:10px;
+}
+
+.hero p{
+    font-size:22px;
 }
 
 .button{
     display:inline-block;
-    margin-top:20px;
-    background:#1678C9;
-    color:white;
+    margin-top:25px;
+    background:white;
+    color:#1565C0;
+    padding:15px 30px;
     text-decoration:none;
-    padding:15px 25px;
     border-radius:12px;
     font-weight:bold;
 }
 
-</style>
+/* Sections */
 
-</head>
+.section{
+    max-width:1000px;
+    margin:auto;
+    padding:60px 20px;
+}
 
-<body>
+.section h2{
+    text-align:center;
+    color:#1565C0;
+    margin-bottom:30px;
+}
 
-<nav>
-<a href="index.html">🏠 Home</a>
-<a href="programs.html">🔬 Programs</a>
-<a href="labs.html">🧪 Inspire Labs</a>
-<a href="resources.html">📚 Resources</a>
-</nav>
+/* Cards */
 
-<div class="container">
+.cards{
+    display:flex;
+    gap:25px;
+    flex-wrap:wrap;
+    justify-content:center;
+}
 
-<img src="logo.png" class="logo">
-
-<div class="hero">
-
-<h1>Future First</h1>
-
-<p><strong>Empowering the next generation through STEM education.</strong></p>
-
-<a class="button" href="programs.html">Explore Our Programs</a>
-
-</div>
-
-<h2>Our Mission</h2>
-
-<p>
-Future First is dedicated to making STEM education engaging, accessible, and inspiring for students of all ages. Through personalized tutoring and interactive learning experiences, we help students build confidence, curiosity, and a lifelong passion for science, technology, engineering, and mathematics.
-</p>
-
-<h2>What We Do</h2>
-
-<ul>
-<li>Provide tutoring in STEM-related subjects.</li>
-<li>Host hands-on Inspire Labs multiple times each month.</li>
-<li>Create engaging STEM activities for different age groups.</li>
-<li>Encourage creativity, critical thinking, and problem-solving through interactive learning.</li>
-</ul>
-
-<h2>Our Vision</h2>
-
-<p>
-We believe every student deserves the opportunity to discover their potential through STEM. Our goal is to create an environment where learning is exciting, collaborative, and accessible to all.
-</p>
-
-</div>
-
-</body>
-
-</html>
+.card{
+    background:white;
+    width:280px;
+    padding:25px;
+    border-radius:18px;
+    box-shadow:0 6px 18px rgba(0,
