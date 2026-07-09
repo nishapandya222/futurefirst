@@ -9,7 +9,68 @@
 <title>Future First</title>
 
 <style>
+.hero{
+    text-align:center;
+    padding:80px 20px;
+    background:#E3F2FD;
+}
 
+.hero h1{
+    font-size:50px;
+    color:#1565C0;
+}
+
+.hero p{
+    font-size:22px;
+    margin:20px;
+}
+
+button{
+    padding:12px 25px;
+    border:none;
+    background:#1565C0;
+    color:white;
+    border-radius:25px;
+    font-size:16px;
+}
+
+.mission{
+    text-align:center;
+    padding:50px 20px;
+}
+
+.mission h2,
+.impact h2{
+    color:#1565C0;
+    font-size:32px;
+}
+
+.mission p{
+    max-width:800px;
+    margin:20px auto;
+    font-size:18px;
+    line-height:1.6;
+}
+
+.impact{
+    padding:50px 20px;
+    text-align:center;
+}
+
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    margin-top:30px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    width:250px;
+    border-radius:15px;
+    box-shadow:0 4px 15px rgba(0,0,0,.1);
+}
 *{
     margin:0;
     padding:0;
@@ -63,7 +124,55 @@ nav a:hover{
 <a href="contact.html">Contact</a>
 
 </nav>
+</nav>
 
+<section class="hero">
+    <h1>Future First</h1>
+    <p>
+        Empowering the next generation through STEM, innovation, and education.
+    </p>
+
+    <button>Learn More</button>
+</section>
+
+<section class="mission">
+    <h2>Our Mission</h2>
+    <p>
+        Future First is a student-led organization dedicated to inspiring young
+        minds in STEM and healthcare. We provide opportunities for students to
+        explore science, technology, engineering, and medicine through education,
+        mentorship, and hands-on experiences.
+    </p>
+</section>
+
+<section class="impact">
+    <h2>What We Do</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>STEM Education</h3>
+            <p>
+                Helping students discover their passion for science and technology.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Healthcare Innovation</h3>
+            <p>
+                Exploring ideas that connect creativity, research, and medicine.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Community Impact</h3>
+            <p>
+                Creating opportunities to support and inspire future leaders.
+            </p>
+        </div>
+
+    </div>
+</section>
 </body>
 
 </html>
